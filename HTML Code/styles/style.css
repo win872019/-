@@ -1,0 +1,41 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*
+1.Nested Css
+2.self &
+3.varibles
+4.import
+(1)分類
+(2)重複利用
+5.mixin
+*/
+p {
+  color: blue;
+}
+
+header {
+  background-color: black;
+}
+header h1 {
+  color: blue;
+}
+header:hover {
+  background-color: blueviolet;
+}
+
+div.link1 {
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */
+
+.pic{
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+}

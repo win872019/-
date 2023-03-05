@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*
+1.Nested Css
+2.self &
+3.varibles
+4.import
+(1)分類
+(2)重複利用
+5.mixin
+*/
+
+// Variables
+$theamcolor: blue;
+
+p {
+  color: $theamcolor;
+}
+
+// import
+@import "./header.scss";
+
+// mixin
+@mixin flexxboxx($col,$dir) {
+  display: flex;
+  background-color:$col;
+  flex-direction: $dir
+}
+
+div.link1 {
+  @include flexxboxx(yellow,column);
+}

@@ -1,0 +1,54 @@
+/* grouping selector */
+h1,
+h2 {
+  color: blue;
+}
+
+/* descendant selector */
+div.link1 a {
+  color: hotpink;
+}
+
+div.link2 a {
+  color: green;
+}
+
+/* attribute selector */
+input[id="email"]{
+    color: sienna;
+}
+
+/* pseudo classes */
+tr:nth-child(3){
+    color: blueviolet;
+}
+
+h1:hover{
+    color: aqua;
+}
+
+h2:active{
+    color: firebrick;
+}
+
+textarea:focus{
+    background-color: skyblue;
+}
+
+/* pseudo elements */
+
+p::first-letter{
+    font-size: 2.5rem;
+}
+
+h1::before{
+    content: "㊣";
+}
+h1::after{
+    content:"§";
+}
+
+*::selection{
+    background-color:orange ;
+    color: purple;
+}

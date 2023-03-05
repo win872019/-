@@ -1,0 +1,10 @@
+// Nested Css, self &
+header {
+  background-color: black;
+  h1 {
+    color: $theamcolor;
+  }
+  &:hover {
+    background-color: blueviolet;
+  }
+}

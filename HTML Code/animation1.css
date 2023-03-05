@@ -1,0 +1,55 @@
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+}
+
+/* keyframes, animation-mame, animation-duration, animation-delay */
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  animation-name: cross;
+  animation-duration: 2s;
+  position: relative;
+  /* animation-delay: 2s; */
+
+  /* iteration-count, direction, fill-mode, timing-function */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate; */
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes cross {
+  from {
+    background-color: chartreuse;
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    background-color: white;
+    top: 400px;
+    left: 400px;
+  }
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  position: relative;
+  animation: cross2 2s 12 alternate;
+}
+
+@keyframes cross2 {
+    from {
+        background-color: pink;
+        top: 0px;
+        left: 0px;
+
+    } to {
+        background-color: orange;
+        top: 200px;
+        left: 400px;
+}

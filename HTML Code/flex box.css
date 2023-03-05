@@ -1,0 +1,29 @@
+
+/* flex-direction, flex-wrap*/
+.container{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+/* .box{
+    width: 200px;
+    height: 200px;
+} */
+
+.box1{
+    background-color: green;
+}
+.box2{
+    background-color: rosybrown;
+}
+.box3{
+    background-color: fuchsia;
+}
+.box4{
+    background-color: darkorange;
+}
+.box5{
+    background-color: aquamarine;
+}

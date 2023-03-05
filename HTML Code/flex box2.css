@@ -1,0 +1,29 @@
+/* flex-grow, flex-basis*/
+.container {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  /* flex-grow: 1;
+  flex-basis: 100px; */
+}
+
+.box1 {
+  background-color: green;
+}
+.box2 {
+  background-color: rosybrown;
+}
+.box3 {
+  background-color: fuchsia;
+}
+.box4 {
+  background-color: darkorange;
+}
+.box5 {
+  background-color: aquamarine;
+}
