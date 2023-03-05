@@ -1,0 +1,23 @@
+/* .bold{
+    font-weight: bold;
+}
+
+.gold{
+    background-color: gold;
+}
+
+.green:hover{
+    background-color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+div.purple{
+width: 300px;
+height: 300px;
+background-color: purple;
+}
+div.yellow{
+width: 150px;
+height: 150px;
+background-color: yellow;
+}
